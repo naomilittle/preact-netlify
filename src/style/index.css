@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Courgette&text=Jane%20Doe");
+@import url("https://fonts.googleapis.com/css?family=RokkittFont");
 
 html, body {
 	height: 100%;
 	width: 100%;
 	padding: 0 1vw;
 	margin: 0;
-	background: #ffffff;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	background: #fbedfc;
+	font-family: 'RokkittFont', arial, sans-serif;
 	font-weight: 500;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
@@ -23,8 +23,9 @@ html, body {
 
 
 a {
-	text-decoration: none;
-	color: #333;
+	text-decoration: underline;
+	color: #dadce0;
+	font-weight:700;
 }
 
 .loading {
@@ -50,3 +51,8 @@ a {
 }
 
 
+h1 {font-size:45px; color:#0000ff;}
+
+h2 {fon-size:24px; color:#0000ff;}
+
+p {font-size:18px; color:#0000ff;}
